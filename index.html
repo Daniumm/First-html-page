@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Martinez CV</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        
+        th{
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            text-align: left;
+            color: #333;
+            margin: 10px 10% 10px 30%;
+            text-align: justify;
+            line-height: 2;
+        }
+        
+        td {
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            margin: 10px 10% 10px 30%;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        table{
+            
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+                
+             
+        img{
+            display: block;
+            max-width: 100%;
+
+        }
+        
+        
+        body{
+            background-color: #fff;
+            margin: 20px;
+            
+        }
+
+        header .Introduccion h1{
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            color: navy;
+            margin-top: 30px;
+        }
+
+        header .Introduccion h4{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            text-align: left;
+            color: #777;
+            margin-top: 30px;
+            margin-left: 10%;
+        }
+
+        header .Introduccion p{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            margin: 10px 10% 10px 10%;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        hr{
+            max-width: 80%;
+            height: 2px;
+            background: navy;
+            size: 10px;
+        }
+
+        h2{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 24px;
+            text-align: left;
+            color: #777;
+            margin-top: 30px;
+            margin-left: 10%;
+            text-transform: uppercase;
+        }
+
+        header .Educacion span{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #000;
+            margin: 20% 0 10px 30%;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        header .Educacion p{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            text-align: justify;
+            line-height: 2;
+            display: inline;
+        }
+
+        header .Educacion a{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            text-align: justify;
+            line-height: 2;
+            display: inline;
+        }
+
+        header .ContenedoresProgramacion p{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            margin: 0 10% 10px 10%;
+            text-align: justify;
+            line-height: 2;
+            padding-left: 20%;
+        }
+
+        header .container{
+            width: 60%;
+            display: block;
+            margin-left: 30%;
+            
+            box-sizing: border-box;
+            background-color: #eee;
+        }
+
+        header .skillAmount{
+    
+            text-align: right; 
+            padding-top: 15px; 
+            padding-bottom: 15px; 
+            height: 10px;
+            color: black;
+        }
+        .python{
+            width: 85%;
+            background-color: skyblue;
+        }
+
+        .cpp{
+            width: 75%;
+            background-color:tomato;
+        }
+        
+        .sql{
+            width: 50%;
+            background-color:yellowgreen;
+        }
+
+        .html{
+            width: 40%;
+            background-color:plum;
+        }
+
+        header .Portafolio h3{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            text-align: left;
+            color: #777;
+            margin-top: 30px;
+            margin-left: 30%;
+            text-transform: capitalize;
+        }
+
+        header .Portafolio h4{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            text-align: left;
+            color: #000;
+            margin: 10px 0px 10px 30%;
+            margin-left: 30%;
+        }
+
+        header .Portafolio img{
+            max-width: 50%;
+            margin: 0px 0px 40px 30%;
+            display: block;
+            height: 250px;
+        }
+
+        header .Portafolio p{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            margin: 10px 10% 10px 30%;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        header .Hobbies li{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            text-align: left;
+            color: #555;
+            margin: 10px 10% 10px 30%;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        .icon img{
+            display: inline;
+            max-width: 60px;
+            margin-left: 7.5%;
+            padding: 0px 20px;
+            
+        }
+
+        .icon-insta img{
+            display: inline;
+            max-width: 50px;
+            padding: 0px 20px;
+            
+        }
+
+        .icon-face img{
+            display: inline;
+            max-width: 50px;
+            padding: 0px 20px;
+            
+        }
+
+
+        
+        
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <section class="Introduccion">
+            <h1>Daniel Alejandro Martínez Rosete</h1>
+            <h4>Estudiante de Ingeniería en Tecnologías Computacionales</h4>
+            <hr>
+            <p>Soy un estudiante de Ingeniería en Tecnologías Computacionales al que le gusta mucho la ciberseguridad. He trabajado en empresas dedicadas a telecomunicaciones y seguridad para negocios. Tengo beca en el Tecnológico de Monterrey, y me gusta mantener un buen promedio, también me gusta mucho la programación ya que me relaja y me concentro mucho.</p>
+            
+        </section>
+
+        <section class="main">
+            <section class="Educacion">
+                <h2>Education</h2>
+                <hr>
+                <div class="Escuelas">
+                    <span>Secundaria:</span>   <p>Instituto Sucre</p>
+                    <br>
+                    <span>Preparatoria:</span> <a target="_blank" href="https://tec.mx/es">Tecnológico de Monterrey</a>
+                    <br>
+                    <span>Universidad:</span>  <a target="_blank" href="https://tec.mx/es">Tecnológico de Monterrey</a>
+                    <br>
+                </div>
+
+
+            </section>
+
+
+            <section class="Lenguajes">
+                <h2>Lenguajes de Programación</h2>
+                <hr>
+                <div class = "ContenedoresProgramacion">
+                    <p>Python</p>
+                    <div class="container">
+                        <div class="skillAmount python">85%</div>
+                    </div>
+
+                    <p>C++</p>
+                    <div class="container">
+                        <div class="skillAmount cpp">75%</div>
+                    </div>
+
+                    <p>SQL</p>
+                    <div class="container">
+                        <div class="skillAmount sql">50%</div>
+                    </div>
+
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="skillAmount html">40%</div>
+                    </div>
+                    
+
+
+                </div>
+                
+
+
+            </section>
+
+            <section class="Portafolio">
+                <h2>Portafolio</h2>
+                <hr>
+                <h3>Recomendador de películas en C++</h3>
+                <h4>2019</h4>
+                <p>Este es un proyecto que trabajamos en equipo donde escribimos creca de 700 líneas de código en C++, donde se recomiendan peliculas de varias maneras como nombre, año y rating de diferentes plataformas. Con este proyecto aprendimos mucho de todo tipo de funciones y librerías de C++, así como manejo de grandes cantidades de datos.</p>
+                <a target="_blank" href="img/CodeCpp.png"><img src="img/CodeCpp.png" alt="Codigo Fuente"></a>
+                <a target="_blank" href="img/CodeCppFunc.png"><img src="img/CodeCppFunc.png" alt="Funcionamiento"></a>
+
+                <h3>Ajedrez en Python</h3>
+                <h4>2018</h4>
+                <p>En este proyecto se crea un tablero de ajedrez aleatorio y te dice los movimientos que le quedasn al rey negro y si este esta en jaque o en jaquemate usando todo tipo de matricez y listas.</p>
+                <a target="_blank" href="img/ChessPython.jpeg"><img src="img/ChessPython.jpeg" alt="Ajedrez en Python"></a>
+
+                <h3>Solucionador de sudokus en Python</h3>
+                <h4>2017</h4>
+                <p>En este proyecto se resuelve un sudoku ya escrito en matrices por medio de backtracking y además logra darte varias soluciones al mismo sudoku.</p>
+                <a target="_blank" href="img/SudokuPython.jpeg"><img src="img/SudokuPython.jpeg" alt="Sudoku en Python"></a>
+
+            </section>
+
+            <section class="Hobbies">
+                <h2>Hobbies</h2>
+                <hr>
+                <ul>
+                    <li>Leer</li>
+                    <li>Jugar Videojuegos</li>
+                    <li>Salir con amigos</li>
+                    <li>Programar</li>
+                    <li>Pasear a mi perro</li>
+                </ul>
+            </section>
+
+            <section class="Libros">
+                <div>
+                    <h2>Libros Favoritos</h2>
+                    <hr>
+
+                    <table>
+                        <tr>
+                            <th>Libro</th>
+                            <th>Autor</th>
+                            <th>Año</th>
+                        </tr>
+                        <tr>
+                            <td>Orígen</td>
+                            <td>Dan Brown</td>
+                            <td>2017</td>
+                        </tr>
+                        <tr>
+                            <td>War Cross</td>
+                            <td>Marie Lu</td>
+                            <td>2017</td>
+                        </tr>
+                        <tr>
+                            <td>The outsider</td>
+                            <td>Stephen King</td>
+                            <td>2018</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </section>
+            <hr>
+            <a target="_blank" class="icon" href="https://www.twitter.com/"><img src="img/TwitterPNG-removebg-preview.png" alt="Twitter logo"></a>
+            <a target="_blank" class="icon-insta" href="https://www.instagram.com/"><img src="img/InstagramPNG-removebg-preview.png" alt="Instagram logo"></a>
+            <a target="_blank" class="icon-face" href="https://www.facebook.com/"><img src="img/FacebookPNG-removebg-preview.png" alt="Facebook logo"></a>
+            <a target="_blank" class="icon-insta" href="https://www.linkedin.com/"><img src="img/LinkedinPNG-removebg-preview.png" alt="Linkedin logo"></a>
+
+
+        </section>
+
+    </header>
+</body>
+</html>
